@@ -9,15 +9,20 @@ import java.util.Scanner;
 
 public class ConversionTipo {
 static Scanner dato = new Scanner(System.in);
+
     public static void main(String[] args) {
         // TODO code application logic here
-        int num1 = 5;
         
-        System.out.println("\nIntroduce un numero: \n");
+        System.out.println("Ejercicio convertir un String en un Intiger "
+                +"\nPara comprobar que el cambio se hace correctamente, "
+                + "realizaremos una suma,5 sera el numero sobre el que haremos la suma  "
+                +"\n_______________________________________________________________");
+        int num1 = 5;//sera el numero sobre el que haremos la suma
+        System.out.println("\nIntroduce un numero, que se guardara en un String : \n");
         String cad = dato.next();
         int num = Integer.parseInt(cad);
-        System.out.println(cad);
-        System.out.println("la suma es"+(num1+num));
+        System.out.println("\nConvertimos un String en un Intiger: ");
+        System.out.println("La suma es 5 + "+ num + " = "+(num1+num));
         
         //String cad="10",guardoEnt; 
         //dato = Integer.parseInt(cad); // ya convertimos en entero la cadena
