@@ -15,10 +15,10 @@ static Scanner dato = new Scanner(System.in);
         
         System.out.println("Ejercicio convertir un String en un Intiger "
                 +"\nPara comprobar que el cambio se hace correctamente, "
-                + "realizaremos una suma,5 sera el numero sobre el que haremos la suma  "
+                + "realizaremos una suma,5 sera el numero sobre el que haremos la suma"
                 +"\n_______________________________________________________________");
         int num1 = 5;//sera el numero sobre el que haremos la suma
-        System.out.println("\nIntroduce un numero, que se guardara en un String : \n");
+        System.out.println("\nIntroduce un numero, que se guardara en un String : ");
         String cad = dato.next();
         int num = Integer.parseInt(cad);
         System.out.println("\nConvertimos un String en un Intiger: ");
