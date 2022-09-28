@@ -4,17 +4,20 @@
  */
 package notas2dam;
 
+import java.util.Scanner;
+
 /**
  *
  * @author ingri
  */
 public class Notas2DAM {
-
+static Scanner dato = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
     }
     
 }

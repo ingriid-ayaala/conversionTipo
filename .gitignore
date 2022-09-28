@@ -26,3 +26,5 @@ replay_pid*
 /conversionTipo/build/
 /conversionTipo/dist/
 /notas2DAM/nbproject/private/
+/notas2DAM/dist/
+/notas2DAM/build/
