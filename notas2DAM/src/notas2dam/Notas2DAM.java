@@ -11,12 +11,23 @@ import java.util.Scanner;
  * @author ingri
  */
 public class Notas2DAM {
-static Scanner dato = new Scanner(System.in);
+static Scanner notas = new Scanner(System.in);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Introduce la nota: ");
+        double nota = notas.nextDouble();
+        if(nota>=0 && nota <5){
+            System.out.println("La calificación es: Aprobada");
+            else if (nota>=5 && nota <7){
+            System.out.println("");
+            }else if 
+        
+         }
+        
+        }
         
     }
     

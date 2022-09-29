@@ -13,7 +13,7 @@ static Scanner dato = new Scanner(System.in);
     public static void main(String[] args) {
         // TODO code application logic here
         
-       /* System.out.println("Ejercicio convertir un String en un Intiger "
+       System.out.println("Ejercicio convertir un String en un Intiger "
                 +"\nPara comprobar que el cambio se hace correctamente, "
                 + "realizaremos una suma,5 sera el numero sobre el que haremos la suma"
                 +"\n_______________________________________________________________");
@@ -22,7 +22,7 @@ static Scanner dato = new Scanner(System.in);
         String cad = dato.next();
         int num = Integer.parseInt(cad);
         System.out.println("\nConvertimos un String en un Intiger: ");
-        System.out.println("La suma es 5 + "+ num + " = "+(num1+num));*/
+        System.out.println("La suma es 5 + "+ num + " = "+(num1+num));
         
         /*en funcion de una nota quiero saber si el alumno esta 
         suspenso 
